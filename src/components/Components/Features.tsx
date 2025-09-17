@@ -170,7 +170,7 @@ export const FeaturesAlternatingLayout01 = () => {
                         </ul> */}
                     </div>
 
-                    <div className="relative w-full flex-1 lg:h-128">
+                    <div className="relative w-full flex-1 lg:h-128 z-10">
                         {/* <AlternateImageMockup className="lg:right-0"> */}
                             {/* Light mode image (hidden in dark mode) */}
                             <img
@@ -189,9 +189,8 @@ export const FeaturesAlternatingLayout01 = () => {
                 </div>
             </div>
 
-            {/* left side */}
-            <div className="absolute bottom-64 -left-10 w-[50%] h-20 bg-purple-600 opacity-40 -rotate-[7deg] "></div>
-            <div className="absolute bottom-[15%] -left-10 w-[15%] h-20 bg-purple-400 opacity-40 -rotate-6"></div>
+
+
 
             {/* Right Side */}
             <div className="absolute md:bottom-[90%] bottom-[85%] w-[80%] -right-4 md:-right-4 h-12 md:w-[60%]  md:h-20 bg-purple-700 opacity-40 -rotate-12"></div>
@@ -206,6 +205,12 @@ export const FeaturesAlternatingLayout01 = () => {
                 <div className="absolute md:bottom-[45.4%] bottom-[56.4%] w-[40%] -left-4 h-12 md:-left-4 md:w-[40%] md:h-20 bg-purple-500 opacity-45 -rotate-12"></div>
                 <div className="absolute md:bottom-[43%] bottom-[54.7%] w-[60%] -left-4 h-12 md:-left-4 md:w-[50%] md:h-20 bg-purple-400 opacity-45 -rotate-12"></div>
                 <div className="absolute md:bottom-[40.7%] bottom-[53%] w-[80%] -left-4 h-12 md:-left-4 md:w-[60%] md:h-20 bg-purple-300 opacity-45 -rotate-12"></div>
+
+                <div className="absolute md:bottom-[5%] bottom-[10%] w-[90%] -right-6 md:-right-9 h-12 md:w-[50%]  md:h-20 bg-purple-700 opacity-40 rotate-[20deg]"></div>
+                <div className="absolute md:bottom-[7.3%] bottom-[11.7%] w-[75%] -right-6 h-12 md:-right-9 md:w-[43%] md:h-20  bg-purple-600 opacity-40 rotate-[20deg]"></div>
+                <div className="absolute md:bottom-[9.6%] bottom-[13.4%] w-[60%] -right-6 h-12 md:-right-9 md:w-[36%] md:h-20 bg-purple-500 opacity-45 rotate-[20deg]"></div>
+                <div className="absolute md:bottom-[11.8%] bottom-[15%] w-[40%] -right-6 h-12 md:-right-9 md:w-[28%] md:h-20 bg-purple-400 opacity-45 rotate-[20deg]"></div>
+                <div className="absolute md:bottom-[14.3%] bottom-[16.6%] w-[20%] -right-6 h-12 md:-right-4 md:w-[20%] md:h-20 bg-purple-300 opacity-45 rotate-[20deg]"></div>
             
         </section>
     );
