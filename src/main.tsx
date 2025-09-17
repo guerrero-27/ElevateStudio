@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router"; // <-- changed BrowserRouter → HashRouter
 // import { HomeScreen } from "@/pages/home-screen";
 import { NotFound } from "@/pages/not-found";
 import { RouteProvider } from "@/providers/router-provider";
@@ -12,14 +12,14 @@ import "@/styles/globals.css";
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
         <ThemeProvider>
-            <BrowserRouter>
+            <HashRouter> {/* <-- use HashRouter here */}
                 <RouteProvider>
                     <Routes>
                         <Route path="/" element={<App />} />
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </RouteProvider>
-            </BrowserRouter>
+            </HashRouter>
         </ThemeProvider>
     </StrictMode>,
 );
