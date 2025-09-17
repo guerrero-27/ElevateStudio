@@ -11,5 +11,5 @@ export default defineConfig({
         },
     },
     // 👇 Ito ang kailangan para sa GitHub Pages
-    base: "/ElevateStudio/",
+    base: "/ElevateStudio",
 });

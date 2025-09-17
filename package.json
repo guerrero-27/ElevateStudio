@@ -3,15 +3,14 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
-  "homepage": "https://guerrero-27.github.io/ElevateStudio", 
+  "homepage": "https://guerrero-27.github.io/ElevateStudio/",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build", 
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist --repo https://github.com/guerrero-27/ElevateStudio.git"
-    },
-
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.11",
