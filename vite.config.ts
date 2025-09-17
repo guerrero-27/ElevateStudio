@@ -10,4 +10,6 @@ export default defineConfig({
             "@": path.resolve(__dirname, "./src"),
         },
     },
+    // 👇 Ito ang kailangan para sa GitHub Pages
+    base: "/ElevateStudio/",
 });
